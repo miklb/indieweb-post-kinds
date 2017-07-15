@@ -346,7 +346,7 @@ class Kind_Taxonomy {
 				'format' => 'status', // Post Format that maps to this
 				'description' => __( 'identifying you are at a particular geographic location', 'indieweb-post-kinds' ),
 				'description-url' => 'http://indieweb.org/checkin',
-				'show' => false // Show in Settings
+				'show' => true // Show in Settings
 			),
 			'wish' => array(
 				'singular_name' => _x( 'Wish', 'indieweb-post-kinds' ), // Name for one instance of the kind
