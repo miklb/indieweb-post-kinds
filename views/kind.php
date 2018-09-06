@@ -31,7 +31,7 @@ if ( ! $kind ) {
 // Add in the appropriate type
 $type = Kind_Taxonomy::get_kind_info( $kind, 'property' );
 if ( ! empty( $type ) ) {
-	$type = 'p-' . $type;
+	$type = 'u-' . $type;
 }
 ?>
 
